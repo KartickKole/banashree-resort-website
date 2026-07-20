@@ -1,0 +1,15 @@
+{
+  "name": "banashree-resort-website",
+  "version": "1.0.0",
+  "description": "Official website for Banashree Resort — Luxury Nature Resort, Joypur, West Bengal",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 3000",
+    "build": "vite build",
+    "serve": "vite preview --host 0.0.0.0 --port 3000"
+  },
+  "devDependencies": {
+    "vite": "^7.0.0"
+  }
+}
