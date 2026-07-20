@@ -7,9 +7,11 @@
   "scripts": {
     "dev": "vite --host 0.0.0.0 --port 3000",
     "build": "vite build",
-    "serve": "vite preview --host 0.0.0.0 --port 3000"
+    "serve": "vite preview --host 0.0.0.0 --port 3000",
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "vite": "^7.0.0"
   }
 }
