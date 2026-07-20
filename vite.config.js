@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: './',
+  base: '/banashree-resort-website/',
   build: {
     outDir: 'dist',
     emptyOutDir: true,
